@@ -1,2 +1,2 @@
-# samarth-sarin.github.io
+# http://samarth-sarin.github.io
 My personal website
