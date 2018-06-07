@@ -6,7 +6,7 @@ html, body {
 
 @font-face {
 	font-family: 'newfont';
-	src: url(fonts/goboldblockyitalic.otf);
+	src: url(Fonts/goboldblockyitalic.otf);
 	font-style: normal;
 	font-weight: 100;
 	font-size: 200%;
