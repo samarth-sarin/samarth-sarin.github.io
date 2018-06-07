@@ -15,7 +15,7 @@ html, body {
 
 @font-face {
 	font-family: 'raleway';
-	src: url(fonts/Raleway.ttf);
+	src: url(Fonts/Raleway.ttf);
 	font-style: normal;
 	font-weight: 100;
 	font-size: 200%;
