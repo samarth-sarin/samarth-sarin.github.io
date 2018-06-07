@@ -1,0 +1,103 @@
+html, body {
+	text-align: center;
+	
+	margin: 0 auto;
+}
+
+
+@font-face {
+	font-family: 'newfont';
+	src: url(fonts/goboldblockyitalic.otf);
+	font-style: normal;
+	font-weight: 100;
+	font-size: 200%;
+}
+
+@font-face {
+	font-family: 'raleway';
+	src: url(fonts/Raleway.ttf);
+	font-style: normal;
+	font-weight: 100;
+	font-size: 200%;
+
+}
+
+
+
+h1{
+  
+  animation: fadeIn 4s;
+  font-family: newfont;
+  color: white;
+  font-weight: 100;
+  color:rgb(255,255,255)
+
+
+}
+
+.img1 {
+  animation: fadeIn 4s;
+	border-radius: 25%
+    
+}
+.img2 {
+  animation: fadeIn 4s;
+	width: 50%
+    
+}
+p {
+	font-family: raleway;
+	color: white;
+  padding-left: 3cm;
+  padding-right: 3cm;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 100px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+    background: #881616;
+    color: white;
+}
+.fa-linkedin {
+    background: #162887;
+    color: white;
+}
+.fa-file {
+  background: #E27777;
+  color: white;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+
+
+
