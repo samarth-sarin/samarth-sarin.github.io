@@ -13,7 +13,7 @@ html, body {
 }
 @font-face {
 	font-family: 'raleway';
-	src: url(fonts/Raleway.ttf);
+	src: url(Fonts/Raleway.ttf);
 	font-style: normal;
 	font-weight: 100;
 	font-size: 200%;
@@ -21,7 +21,7 @@ html, body {
 }
 @font-face {
 	font-family: 'newfontreg';
-	src: url(fonts/goboldblockyreg.otf);
+	src: url(Fonts/goboldblockyreg.otf);
 	font-style: normal;
 	font-weight: 100;
 	font-size: 200%;
