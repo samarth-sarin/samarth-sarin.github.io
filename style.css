@@ -34,6 +34,13 @@ h1{
 
 
 }
+h2{
+  padding-left: 0.5cm;
+  animation: fadeIn 4s;
+  font-family: raleway;
+  color: white;
+  font-size: 400%;
+}
 
 .img1 {
   animation: fadeIn 4s;
@@ -45,12 +52,19 @@ h1{
 	width: 50%
     
 }
+.soundcloud {
+  animation: fadeIn 4s;
+  
+    
+}
 p {
 	font-family: raleway;
 	color: white;
   padding-left: 3cm;
   padding-right: 3cm;
 }
+
+
 
 .fa {
     padding: 20px;
@@ -86,6 +100,12 @@ p {
   background: #E27777;
   color: white;
 }
+.fa-soundcloud {
+  background: #FE6D35;
+  color: white;
+  resize: 150%
+}
+
 
 @keyframes fadeIn {
   from {
