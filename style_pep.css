@@ -55,10 +55,17 @@ h2{
 	color: white;
 	font-size: 120%;
 	animation: fadeIn 4s;
-
 	
 }
 
+.scissors{
+  animation: fadeIn 4s;
+
+}
+
+.glue{
+  animation: fadeIn 4s;
+}
 .shadow {
 	float: left;
 }
