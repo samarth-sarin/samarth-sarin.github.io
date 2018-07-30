@@ -27,20 +27,39 @@ html, body {
 	font-size: 200%;
 }
 
+@font-face {
+  font-family: 'prompt';
+  src: url(Fonts/PromptLight.ttf);
+  font-style: normal;
+  font-weight: 100;
+  
 
-h1 {
+}
+h1{
+  
   animation: fadeIn 4s;
-  font-family: newfont;
+  font-family: prompt;
   color: white;
   font-weight: 100;
+  font-size: 260%;
   color:rgb(255,255,255)
+
+
 }
+
+ul{
+  font-size: 125%;
+  animation: fadeIn 4s;
+}
+
 p {
 	font-family: raleway;
 	color: white;
 	font-size: 200%;
 	
 }
+
+
 
 
 h2{
@@ -51,7 +70,7 @@ h2{
 	font-size: 400%;
 }
 .p1{
-	font-family: raleway;
+	font-family: prompt;
 	color: white;
 	font-size: 120%;
 	animation: fadeIn 4s;
