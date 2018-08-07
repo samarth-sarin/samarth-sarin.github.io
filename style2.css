@@ -5,6 +5,53 @@ html, body {
 }
 
 
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: prompt;
+    font-size: 500%;
+    animation: fadeIn 4s;
+}
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+/* Top right text */
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    padding-right: 115px;
+}
+
+/* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
 @font-face {
 	font-family: 'newfont';
 	src: url(Fonts/goboldblockyitalic.otf);
@@ -52,7 +99,6 @@ h1 span {
   font-size: 150%
 }
 
-
 hr { 
     border-color: white;
     display: block;
@@ -99,6 +145,10 @@ ul{
 .img1 {
   animation: fadeIn 4s;
 	border-radius: 25%
+    
+}
+.guitarpic {
+  animation: fadeIn 4s;
     
 }
 .img2 {
