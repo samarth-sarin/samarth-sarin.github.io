@@ -4,7 +4,6 @@ html, body {
 	margin: 0 auto;
 }
 
-
 @font-face {
 	font-family: 'newfont';
 	src: url(Fonts/goboldblockyitalic.otf);
@@ -28,6 +27,14 @@ html, body {
   font-style: normal;
   font-weight: 100;
 }
+
+@font-face {
+  font-family: 'univers';
+  src: url(Fonts/Univers-Condensed.otf);
+  font-style: normal;
+  font-weight: 100;
+}
+
 @font-face {
   font-family: 'promptreg';
   src: url(Fonts/PromptReg.ttf);
@@ -213,10 +220,10 @@ p {
 .line {
 
 
-  font-family: prompt;
+  font-family: univers;
   color: white;
   font-weight: 100;
-  font-size: 270%;
+  font-size: 300%;
 
 
       position: relative;
