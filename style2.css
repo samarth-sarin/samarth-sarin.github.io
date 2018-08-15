@@ -99,6 +99,16 @@ h1 span {
   font-size: 150%
 }
 
+.jobtitle {
+  font-family: prompt;
+  color: white;
+  font-weight: 100;
+  font-size: 260%;
+  color:rgb(255,255,255);
+  padding-right: 25.5cm;
+  animation: fadeIn 4s;
+}
+
 hr { 
     border-color: white;
     display: block;
@@ -229,7 +239,7 @@ p {
   margin: 4px 2px;
   opacity: 1;
   transition: 0.3s;
-  border-radius: 25%
+  border-radius: 15%
 }
 
 .btn:hover {opacity: 0.6}
