@@ -105,8 +105,12 @@ h1 span {
   font-weight: 100;
   font-size: 260%;
   color:rgb(255,255,255);
-  padding-right: 25.5cm;
   animation: fadeIn 4s;
+}
+
+.joblogo {
+  animation: fadeIn 4s;
+
 }
 
 hr { 
