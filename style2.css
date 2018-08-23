@@ -143,6 +143,14 @@ h2{
   font-size: 285%;
 }
 
+.aboutme{
+  padding-left: 0.5cm;
+  animation: fadeIn 4s;
+  font-family: prompt;
+  color: white;
+  font-size: 400%;
+}
+
 .p1{
   font-family: prompt;
   color: white;
