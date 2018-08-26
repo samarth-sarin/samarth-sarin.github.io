@@ -4,54 +4,6 @@ html, body {
 	margin: 0 auto;
 }
 
-
-.container {
-    position: relative;
-    text-align: center;
-    color: white;
-    font-family: prompt;
-    font-size: 500%;
-    animation: fadeIn 4s;
-}
-
-/* Bottom left text */
-.bottom-left {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-}
-
-/* Top left text */
-.top-left {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-}
-
-/* Top right text */
-.top-right {
-    position: absolute;
-    top: 8px;
-    right: 16px;
-    padding-right: 190px;
-}
-
-/* Bottom right text */
-.bottom-right {
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-}
-
-/* Centered text */
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-
 @font-face {
 	font-family: 'newfont';
 	src: url(Fonts/goboldblockyitalic.otf);
@@ -75,6 +27,14 @@ html, body {
   font-style: normal;
   font-weight: 100;
 }
+
+@font-face {
+  font-family: 'univers';
+  src: url(Fonts/Univers-Condensed.otf);
+  font-style: normal;
+  font-weight: 100;
+}
+
 @font-face {
   font-family: 'promptreg';
   src: url(Fonts/PromptReg.ttf);
@@ -99,21 +59,9 @@ h1 span {
   font-size: 150%
 }
 
-.jobtitle {
-  font-family: prompt;
-  color: white;
-  font-weight: 100;
-  font-size: 260%;
-  color:rgb(255,255,255);
-  animation: fadeIn 4s;
-}
-
-.joblogo {
-  animation: fadeIn 4s;
-
-}
 
 hr { 
+    animation: fadeIn 4s;
     border-color: white;
     display: block;
     margin-top: -1em;
@@ -122,7 +70,6 @@ hr {
     margin-right: auto;
     border-style: inset;
     border-width: 1.5px;
-    animation: fadeIn 4s;
 }
 .hr1 {  
     border-color: black;
@@ -140,41 +87,22 @@ h2{
   animation: fadeIn 4s;
   font-family: prompt;
   color: white;
-  font-size: 285%;
-}
-
-.aboutme{
-  padding-left: 0.5cm;
-  animation: fadeIn 4s;
-  font-family: prompt;
-  color: white;
   font-size: 400%;
 }
-
-.p1{
-  font-family: prompt;
-  color: white;
-  font-size: 120%;
-  animation: fadeIn 4s;
-  
-}
 ul{
-  font-size: 125%;
   animation: fadeIn 4s;
+  font-size: 125%;
 }
 
 
 .img1 {
   animation: fadeIn 4s;
+  
 	border-radius: 25%
     
 }
-.guitarpic {
-  animation: fadeIn 4s;
-  padding-left: 85px;
-    
-}
 .img2 {
+  animation: fadeIn 4s;
 	width: 50%
     
 }
@@ -219,22 +147,27 @@ p {
 .fa-facebook {
     background: #3B5998;
     color: white;
+    animation: fadeIn 4s;
 }
 .fa-twitter {
     background: #55ACEE;
     color: white;
+    animation: fadeIn 4s;
 }
 .fa-instagram {
     background: #881616;
     color: white;
+    animation: fadeIn 4s;
 }
 .fa-linkedin {
     background: #162887;
     color: white;
+    animation: fadeIn 4s;
 }
 .fa-file {
   background: #E27777;
   color: white;
+  animation: fadeIn 4s;
 }
 .fa-soundcloud {
   background: #FE6D35;
@@ -251,27 +184,14 @@ p {
   font-size: 16px;
   margin: 4px 2px;
   opacity: 1;
-  transition: 0.3s;
-  border-radius: 15%
+  transition: 0.4s;
+  border-radius: 25%
 }
 
 .btn:hover {opacity: 0.6}
 
 
-@keyframes invis{
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 0;
-  }
-}
 
-@keyframes invisFade {
-  0% { opacity: 0; }
-  50% {opacity: 0; }
-  100% { opacity: 1; }
-}
 
 
 @keyframes fadeIn {
@@ -288,17 +208,17 @@ p {
 .line {
 
 
-  font-family: prompt;
+  font-family: univers;
   color: white;
   font-weight: 100;
-  font-size: 270%;
+  font-size: 300%;
+  animation: fadeIn 4s;
 
 
       position: relative;
       top: 50%;
-      width: 16em;
       margin: 0 auto;
-      border-right: 2px solid rgba(255, 255, 255, 0.75);
+      
       
       text-align: center;
       white-space: nowrap;
@@ -309,25 +229,12 @@ p {
   font-size: 125%
 }
 
-.anim-typewriter {
-      animation: typewriter 2s steps(20) 1s 1 normal both,
-      blinkTextCursor 850ms steps(40) infinite normal;
-}
- 
-@keyframes typewriter {
-      from {
-            width: 0;
-      }
-      to {
-            width: 8.5em;
-      }
-}
 
-@keyframes blinkTextCursor {
-      from {
-            border-right-color: rgba(255, 255, 255, 0.75);
-      }
-      to {
-            border-right-color: transparent;
-      }
-}
+
+
+
+
+
+
+
+
