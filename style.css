@@ -36,6 +36,13 @@ html, body {
 }
 
 @font-face {
+  font-family: 'universlight';
+  src: url(Fonts/Univers-CondensedLight.otf);
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
   font-family: 'promptreg';
   src: url(Fonts/PromptReg.ttf);
   font-style: normal;
@@ -220,7 +227,7 @@ p {
 .line {
 
 
-  font-family: univers;
+  font-family: universlight;
   color: white;
   font-weight: 100;
   font-size: 300%;
@@ -251,7 +258,7 @@ p {
             width: 0;
       }
       to {
-            width: 7.9em;
+            width: 7.4em;
       }
 }
 
