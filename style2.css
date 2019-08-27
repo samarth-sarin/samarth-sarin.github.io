@@ -219,22 +219,32 @@ p {
 .fa-facebook {
     background: #3B5998;
     color: white;
+    animation: fadeIn 4s;
 }
 .fa-twitter {
     background: #55ACEE;
     color: white;
+    animation: fadeIn 4s;
 }
 .fa-instagram {
     background: #881616;
     color: white;
+    animation: fadeIn 4s;
 }
 .fa-linkedin {
     background: #162887;
     color: white;
+    animation: fadeIn 4s;
 }
 .fa-file {
   background: #E27777;
   color: white;
+  animation: fadeIn 4s;
+}
+.fa-github {
+  background: #A9A9A9;
+  color: white;
+  animation: fadeIn 4s;
 }
 .fa-soundcloud {
   background: #FE6D35;

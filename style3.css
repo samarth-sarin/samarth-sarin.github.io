@@ -175,6 +175,11 @@ p {
   color: white;
   animation: fadeIn 4s;
 }
+.fa-github {
+  background: #A9A9A9;
+  color: white;
+  animation: invisFade 6s;
+}
 .fa-soundcloud {
   background: #FE6D35;
   color: white;
